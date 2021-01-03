@@ -1,5 +1,5 @@
 {
-  "name": "Arelbot",
+  "name": "Agusbot",
   "version": "1.0.0",
   "description": "Termux whatsapp bot",
   "main": "index.js",
@@ -34,15 +34,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrfzvx12/Arelbot"
+    "url": "git+https://github.com/AgusAliansyah/vvipbot-wa"
   },
   "keywords": [
     "K"
   ],
-  "author": "mrf.zvx",
+  "author": "Agusbot",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrfzvx12/Arelbot/issues"
+    "url": "https://github.com/AgusAliansyah/vvipbot-wa/issues"
   },
-  "homepage": "https://github.com/mrfzvx12/Arelbot#readme"
+  "homepage": "https://github.com/AgusAliansyah/vvipbot-wa#readme"
 }
