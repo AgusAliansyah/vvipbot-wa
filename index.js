@@ -1447,40 +1447,8 @@ Silakan pilih :
 *.Dare*
 
 *Selesaikan perintah untuk melakukan TOD selanjutnya* ⚠️` ,MessageType.text, {quoted: m});
-}
-//fitur anti link
-        
 
 
-                    if (text.includes(".antilink")){
-                    if (!isGroupMsg) return aruga.reply(from, 'Maaf, perintah ini hanya dapat dipakai didalam grup!', id)
-                    if (!isGroupAdmins) return aruga.reply(from, 'Gagal, perintah ini hanya dapat digunakan oleh admin grup!', id)
-                    if (!isBotGroupAdmins) return aruga.reply(from, 'Wahai admin, jadikan saya sebagai admin grup dahulu :)', id)
-                    if (args[0] == 'on') {
-                        var cek = antilink.includes(chatId);
-                        if(cek){
-                            return aruga.reply(from, '*Anti Group Link Detector* sudah aktif di grup ini', id) //if number already exists on database
-                        } else {
-                            antilink.push(chatId)
-                            fs.writeFileSync('./lib/helper/antilink.json', JSON.stringify(antilink))
-                            aruga.reply(from, '*[Anti Group Link]* telah di aktifkan\nSetiap member grup yang mengirim pesan mengandung link grup akan di kick oleh bot!', id)
-                        }
-                    } else if (args[0] == 'off') {
-                        var cek = antilink.includes(chatId);
-                        if(!cek){
-                            return aruga.reply(from, '*Anti Group Link Detector* sudah non-aktif di grup ini', id) //if number already exists on database
-                        } else {
-                            let nixx = antilink.indexOf(chatId)
-                            antilink.splice(nixx, 1)
-                            fs.writeFileSync('./lib/helper/antilink.json', JSON.stringify(antilink))
-                            aruga.reply(from, '*[Anti Group Link]* telah di nonaktifkan\n', id)
-                        }
-                    } else {
-                        aruga.reply(from, `pilih on / off\n\n*[Anti Group Link]*\nSetiap member grup yang mengirim pesan mengandung link grup akan di kick oleh bot!`, id)
-                    }
-                    
-                    
-                    
 }
 //Hay gay
 //create @agusalnsyh don't delate this please
