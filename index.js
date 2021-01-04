@@ -1457,7 +1457,7 @@ Silakan pilih :
                 } else {
                     aruga.reply(from, '*[GROUP LINK DETECTOR]*\nKamu mengirimkan link grup chat, maaf kamu di kick dari grup :(', id).then(() => {
                         aruga.removeParticipant(groupId, sender.id)
-                    })
+                    
                 }
 
 
