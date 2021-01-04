@@ -1449,17 +1449,7 @@ Silakan pilih :
 *Selesaikan perintah untuk melakukan TOD selanjutnya* ⚠️` ,MessageType.text, {quoted: m});
 }
 //fitur anti link
-        if (isGroupMsg && GroupLinkDetector && !isGroupAdmins && !isOwner){
-            if (chats.match(/(https:\/\/chat.whatsapp.com)/gi)) {
-                const check = await aruga.inviteInfo(chats);
-                if (!check) {
-                    return
-                } else {
-                    aruga.reply(from, '*[GROUP LINK DETECTOR]*\nKamu mengirimkan link grup chat, maaf kamu di kick dari grup :(', id).then(() => {
-                        aruga.removeParticipant(groupId, sender.id)
-                    
-                }
-
+        
 
 
                     if (text.includes(".antilink")){
