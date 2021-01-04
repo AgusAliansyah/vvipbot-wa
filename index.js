@@ -1461,7 +1461,7 @@ Silakan pilih :
                 }
             }
         }
-break
+
                     case 'antilink':
                     if (!isGroupMsg) return aruga.reply(from, 'Maaf, perintah ini hanya dapat dipakai didalam grup!', id)
                     if (!isGroupAdmins) return aruga.reply(from, 'Gagal, perintah ini hanya dapat digunakan oleh admin grup!', id)
