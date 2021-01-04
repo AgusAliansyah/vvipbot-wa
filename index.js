@@ -1459,10 +1459,10 @@ Silakan pilih :
                         aruga.removeParticipant(groupId, sender.id)
                     })
                 }
-            }
-        }
 
-                    case 'antilink':
+
+
+                    if (text.includes(".antilink")){
                     if (!isGroupMsg) return aruga.reply(from, 'Maaf, perintah ini hanya dapat dipakai didalam grup!', id)
                     if (!isGroupAdmins) return aruga.reply(from, 'Gagal, perintah ini hanya dapat digunakan oleh admin grup!', id)
                     if (!isBotGroupAdmins) return aruga.reply(from, 'Wahai admin, jadikan saya sebagai admin grup dahulu :)', id)
@@ -1488,7 +1488,7 @@ Silakan pilih :
                     } else {
                         aruga.reply(from, `pilih on / off\n\n*[Anti Group Link]*\nSetiap member grup yang mengirim pesan mengandung link grup akan di kick oleh bot!`, id)
                     }
-                    break  
+                    
                     
                     
 }
