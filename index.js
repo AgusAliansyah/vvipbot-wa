@@ -1328,7 +1328,27 @@ if (messageType === MessageType.text)
       }
 
    };
+//GroupVVIPBOT
+if (text.includes('.Group')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
+}
+if (messageType === MessageType.text)
+   {
+      let is = m.message.conversation.toLocaleLowerCase()
+      if (is == '.Group')
+      {
+         fetch('https://chat.whatsapp.com/D2o2iSgtRtpFXD2PWfJBoj')
+            .then(res => res.text())
+            .then(body =>
+            {
+               let tod = body.split("\n");
+               let pjr = tod[Math.floor(Math.random() * tod.length)];
+               let pantun = pjr.replace(/pjrx-line/g, "\n");
+               conn.sendMessage(id, pantun, MessageType.text, { quoted: m } )
+            });
+      }
 
+   };
  //Receh
 if (text.includes('.Receh')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
