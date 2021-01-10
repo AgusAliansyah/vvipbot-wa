@@ -192,6 +192,7 @@ Terakhir scan kode QR
 
 ## Terimakasih untuk
 * [`Fdciabdul`](https://github.com/fdciabdul)
+* [`mrfzvx12`](https://github.com/mrfzvx12)
 * [`Aruga`](https://github.com/ArugaZ)
 * [`Mhankbarbar`](https://github.com/MhankBarBar)
 * [`Alfiansx`](https://github.com/alfiansx)
