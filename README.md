@@ -1,6 +1,6 @@
 </p>
 <p align="center">
-<a href="https://repository-images.githubusercontent.com/292765152/b5b54c80-ef19-11ea-9998-10a88f042830"><img title="N0B1T4 BOT" src="https://repository-images.githubusercontent.com/292765152/b5b54c80-ef19-11ea-9998-10a88f042830"></a>
+<a href="https://repository-images.githubusercontent.com/292765152/b5b54c80-ef19-11ea-9998-10a88f042830"><img title="AGUS BOT" src="https://repository-images.githubusercontent.com/292765152/b5b54c80-ef19-11ea-9998-10a88f042830"></a>
 <p align="center">
 <a href="https://github.com/AgusAliansyah?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/AgusAliansyah?color=blue&style=flat-square"></a>
 <a href="https://github.com/AgusAliansyah/vvipbot-wa/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/AgusAliansyah/vvipbot-wa?color=red&style=flat-square"></a>
@@ -77,14 +77,14 @@ Terakhir scan kode QR
 
 ## FITUR
 
-| SIMSIMI |Yes|
+| SIMSIMI |❌|
 | ------------- | ------------- |
 | Simsimi |❌|
 
 | FUN |Yes|
 | ------------- | ------------- |
 | Say|✅|
-| Nama ninja|✅|
+| Nama ninja|❌|
 | Puisi|✅|
 | Cerpen|✅|
 | Tagme|✅|
@@ -104,7 +104,7 @@ Terakhir scan kode QR
 | Arti nama|✅|
 | Kecocokan nama|✅|
 | Get zodiak|✅|
-| Zodiak|✅|
+| Zodiak|❌|
 
 | Game |✅|
 | ------------- | ------------- |
