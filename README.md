@@ -14,7 +14,7 @@
    <a href="https://repository-images.githubusercontent.com/292765152/b5b54c80-ef19-11ea-9998-10a88f042830"> "AGUS BOT" <a href="https://imgbb.com/"><img src="https://i.ibb.co/HNvqY6F/vvipindo-bot.jpg" alt="vvipindo-bot" border="0"></a>
     <h3> SCRIPT MODIFIKASI BUKAN HASIL SENDIRI </h3>
 
-# Hai 👋🏻
+# Hai bor 👋🏻
 
 Re-upload numpang ganti nama gabakal bikin lu pro
 </div>
