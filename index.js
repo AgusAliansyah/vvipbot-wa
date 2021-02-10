@@ -13,16 +13,16 @@ const menu = require("./lib/menu.js")
 
 //Setting
 
-const apivhtear = 'Apikey vhtear';
-const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
+const youtube = 'http://m.youtube.com/channel/UClOruMiyMDWs1MJQnG3QFKQ';
+const author = 'tnplastick';
+const BotName = 'wibu BOT'; 
+const instagram = 'lord_bae99- kaelMk_'; 
 const aktif = 'Kapan bot aktif';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Agus\n' // Nama kamu
             + 'ORG:VVIPINDO;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=6282136291619:+62 82136291619\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
@@ -452,7 +452,7 @@ axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => 
 })
 }
 
-  //Jadwan sholat daerah
+  //Jadwal sholat daerah
 if (text.includes('.Sholat')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
@@ -1328,7 +1328,7 @@ if (messageType === MessageType.text)
       }
 
    };
-//GroupVVIPBOT
+//GroupWibuBOT
 if (text.includes('.Group')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
 }
@@ -1450,7 +1450,7 @@ Silakan pilih :
 
 
 }
-//Hay gay
-//create @agusalnsyh don't delate this please
+//Hay bro
+//create @lord_bae99 don't delate this please
 	
 })
