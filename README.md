@@ -2,8 +2,6 @@
 <p align="center">
 <a 
 <a href="https://github.com/AgusAliansyah?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/AgusAliansyah?color=blue&style=flat-square"></a>
-<a href="https://github.com/AgusAliansyah/vvipbot-wa/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/AgusAliansyah/vvipbot-wa?color=red&style=flat-square"></a>
-<a href="https://github.com/AgusAliansyah/vvipbot-wa/network/members"><img title="Forks" src="https://img.shields.io/github/forks/AgusAliansyah/vvipbot-wa?color=red&style=flat-square"></a>
 <a href="https://github.com/AgusAliansyah/termux-whatsapp-bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/AgusAliansyah/vvipbot-walabel=Watchers&color=blue&style=flat-square"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAgusAliansyah%2Fvvipbot-wa&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"></a>
