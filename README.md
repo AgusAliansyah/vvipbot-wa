@@ -186,11 +186,12 @@ Terakhir scan kode QR
 | Owner|✅|
 
 ## Contacts
-* [Instagram](https://www.instagram.com/agus.alnsyh71)
-* My whatsapp [Agus Aliansyah](https://wa.me/6289613469459)
+* [Instagram](https://instagram.com/lord_bae99?igshid=bt1fwi89cidy)
+* My YOUTUBE [TN PLASTICK](http://m.youtube.com/channel/UClOruMiyMDWs1MJQnG3QFKQ)
 
 
 ## Terimakasih untuk
+* [`AgusAliansyah`](https://github.com/AgusAliansyah)
 * [`Fdciabdul`](https://github.com/fdciabdul)
 * [`mrfzvx12`](https://github.com/mrfzvx12)
 * [`Aruga`](https://github.com/ArugaZ)
