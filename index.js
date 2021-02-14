@@ -15,13 +15,13 @@ const menu = require("./lib/menu.js")
 
 const apivhtear = 'Apikey vhtear';
 const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
+const BotName = 'VEX BOT'; 
+const instagram = 'Reinhakunesha'; 
 const aktif = 'Kapan bot aktif';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Agus\n' // Nama kamu
-            + 'ORG:VVIPINDO;\n' // Nama bot
+            + 'FN:Rein\n' // Nama kamu
+            + 'ORG:VEX BOT;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
@@ -1328,7 +1328,7 @@ if (messageType === MessageType.text)
       }
 
    };
-//GroupVVIPBOT
+//ADMIN
 if (text.includes('.Group')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
 }
@@ -1337,7 +1337,7 @@ if (messageType === MessageType.text)
       let is = m.message.conversation.toLocaleLowerCase()
       if (is == '.Group')
       {
-         fetch('https://chat.whatsapp.com/D2o2iSgtRtpFXD2PWfJBoj')
+         fetch('https://chat.whatsapp.com/H4XBioXP9ylI7qMzwWfMBK')
             .then(res => res.text())
             .then(body =>
             {
