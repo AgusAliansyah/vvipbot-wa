@@ -15,8 +15,8 @@ const menu = require("./lib/menu.js")
 
 const apivhtear = 'Apikey vhtear';
 const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
+const BotName = 'Z BOT'; 
+const instagram = 'adamakhris'; 
 const aktif = 'Kapan bot aktif';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
@@ -106,10 +106,10 @@ if (text.includes('.Apakah')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .apakah aku cantik_',MessageType.text, {quoted: m});
 }
 if (text.includes('.Bolehkah')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .bolehkah aku mencintai dia_',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'goblok aku bukan tuhan',MessageType.text, {quoted: m});
 }
 if (text.includes('.Kapan')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .kapan aku kaya_',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'goblok aku bukan tuhan',MessageType.text, {quoted: m});
 }
 if (text.includes('.apakah')){
 const teks = text.replace(/./, '')
@@ -352,7 +352,7 @@ conn.sendMessage(id, `PONG!!\n_Speed : ${latensi.toFixed(4)} Second_`, MessageTy
 
   //Nulis dibuku
 if (text.includes('.Nulis')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'semoga berhasil',MessageType.text, { quoted: m } );
 }
 if (text.includes('.nulis')){
   const teks = text.replace(/.nulis /, '')
@@ -1451,6 +1451,6 @@ Silakan pilih :
 
 }
 //Hay gay
-//create @agusalnsyh don't delate this please
+//create @Z don't delate this please
 	
 })
