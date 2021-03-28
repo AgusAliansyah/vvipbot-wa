@@ -13,16 +13,16 @@ const menu = require("./lib/menu.js")
 
 //Setting
 
-const apivhtear = 'Apikey vhtear';
-const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
-const aktif = 'Kapan bot aktif';
+const apivhtear = 'Mushchaf Abadan';
+const apibarbar = 'GG';
+const BotName = 'PEMBANTUNYA MUSHCHAF'; 
+const instagram = 'No- kaelMk_'; 
+const aktif = 'Seaktif data seluler';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Agus\n' // Nama kamu
-            + 'ORG:VVIPINDO;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
+            + 'FN:Mushchaf\n' // Nama kamu
+            + 'ORG:Pembantu Mus;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=6287825128120:+62 878-2512-8120\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
@@ -452,7 +452,7 @@ axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => 
 })
 }
 
-  //Jadwan sholat daerah
+  //Jadwal sholat daerah
 if (text.includes('.Sholat')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
@@ -846,7 +846,7 @@ if (text.includes(".quotes"))
     });
     }
 
-  //Pencarian image
+  //Pencarian Gambar
 if (text.includes('.Img')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
@@ -877,7 +877,7 @@ if (text.includes(".img"))
             });
     }
 
-  //Stalker instagram
+  //Stalker ig
 if (text.includes('.Stalk')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
