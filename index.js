@@ -13,8 +13,8 @@ const menu = require("./lib/menu.js")
 
 //Setting
 
-const apivhtear = 'Apikey vhtear';
-const apibarbar = 'Apikey mhankbarbar';
+const apivhtear = 'Mushchaf Abadan';
+const apibarbar = 'GG';
 const BotName = 'PEMBANTUNYA MUSHCHAF'; 
 const instagram = 'No- kaelMk_'; 
 const aktif = 'Seaktif data seluler';
