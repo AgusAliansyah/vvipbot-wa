@@ -17,7 +17,7 @@ const apivhtear = 'Apikey vhtear';
 const apibarbar = 'Apikey mhankbarbar';
 const BotName = 'PEMBANTUNYA MUSHCHAF'; 
 const instagram = 'No- kaelMk_'; 
-const aktif = 'Kapan bot aktif';
+const aktif = 'Seaktif data seluler';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Mushchaf\n' // Nama kamu
