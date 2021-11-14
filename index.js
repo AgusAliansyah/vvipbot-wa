@@ -1219,8 +1219,8 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.tex
 }
 if (text.includes(".bot")){
 const teks = text.replace(/.bot /, "")
-axios.get(`https://st4rz.herokuapp.com/api/simsimi?kata=${teks}`).then((res) => {
-    let hasil = `${res.data.result}\n\n*Simsimi chat*`;
+axios.get(`https://kemanain.com/ayla/?pesan={teks}`).then((res) => {
+    let hasil = `${res.data.jawab}\n\n*Simsimi chat*`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
