@@ -21,7 +21,7 @@ const aktif = 'ACTIVEKAN';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:ANYA\n' // Nama kamu
-            + 'ORG:HOME ALIBABA;\n' // Nama bot
+            + 'ORG:ANYA BOT;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=628979174144:+62 897-9174-144\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
