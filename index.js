@@ -13,15 +13,15 @@ const menu = require("./lib/menu.js")
 
 //Setting
 
-const apivhtear = 'Apikey vhtear';
-const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
-const aktif = 'Kapan bot aktif';
+const apivhtear = 'Only~くるみ™';
+const apibarbar = '930814121';
+const BotName = 'Kurumi BotzV01'; 
+const instagram = 'Dont Have Instagram '; 
+const aktif = '06.00 - 22.00';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Agus\n' // Nama kamu
-            + 'ORG:VVIPINDO;\n' // Nama bot
+            + 'FN:Agus\n' // くるみFM
+            + 'ORG:VVIPINDO;\n' // Kurumi BotzV01
             + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
