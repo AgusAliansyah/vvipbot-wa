@@ -14,10 +14,10 @@ const menu = require("./lib/menu.js")
 //Setting
 
 const apivhtear = 'Apikey vhtear';
-const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
-const aktif = 'Kapan bot aktif';
+const apibarbar = 'Apikey frqn.ambarbar';
+const BotName = 'VVIPBOTINDO'; 
+const instagram = 'frqn.am'; 
+const aktif = '24 JAM';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Agus\n' // Nama kamu
@@ -52,7 +52,7 @@ function foreach(arr, func)
       func(i, arr[i]);
    }
 }
-const conn = new WAConnection()
+const conn = new WAConnection(6285647974200)
 conn.on('qr', qr =>
 {
    qrcode.generate(qr,
