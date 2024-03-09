@@ -13,16 +13,16 @@ const menu = require("./lib/menu.js")
 
 //Setting
 
-const apivhtear = 'Apikey vhtear';
-const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
+const apivhtear = 'https://api.vhtear.com';
+const apibarbar = 'https://hujanapi.xyz/';
+const BotName = 'RAVELLIOS BOT'; 
+const instagram = 'Rza_ioo'; 
 const aktif = 'Kapan bot aktif';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Agus\n' // Nama kamu
-            + 'ORG:VVIPINDO;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
+            + 'FN:Reza\n' // Nama kamu
+            + 'ORG:RAVELLIOS;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=6281246897580:+62 812-4689-7580\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
