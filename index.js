@@ -20,7 +20,7 @@ const instagram = 'agus_alnsyh71- kaelMk_';
 const aktif = 'Kapan bot aktif';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Agus\n' // Nama kamu
+            + 'FN:VYNN\n' // Nama kamu
             + 'ORG:VVIPINDO;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
             + 'END:VCARD'
