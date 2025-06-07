@@ -15,14 +15,13 @@ const menu = require("./lib/menu.js")
 
 const apivhtear = 'Apikey vhtear';
 const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
-const aktif = 'Kapan bot aktif';
-const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
-            + 'VERSION:3.0\n' 
-            + 'FN:Agus\n' // Nama kamu
-            + 'ORG:VVIPINDO;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
+const BotName = sakaganteng'; 
+const instagram = 'anonymous'; 
+const aktif = 'ya gatau kocak';
+const vcard = 'BEGIN:VCARD\n' sakasaka          + 'VERSION:3.0\n' 
+            + 'FN:Agus\n' saka ganteng
+            + 'ORG:VVIPINDO;\n' saka ganteng
+            + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' +6285648851871
             + 'END:VCARD'
 const
 {
@@ -1183,7 +1182,7 @@ if (text.includes('.Loli')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
 
-//Random neko
+//Random neko 😋
 if (text.includes('.Neko')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
@@ -1202,7 +1201,7 @@ if (text.includes('.couple')){
     conn.sendMessage(id, hasil ,MessageType.text, { quoted: m } );
 })
 }
-//Primbon arti nama
+//Primbon arti nama hehe saka ganteng 
 if (text.includes('.Arti')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
@@ -1225,7 +1224,7 @@ axios.get(`https://st4rz.herokuapp.com/api/simsimi?kata=${teks}`).then((res) => 
 })
 }
 
-  //Menu
+  //Menu iki menu e dancok
 if (text == '.menu'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
@@ -1264,7 +1263,7 @@ var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
 conn.sendMessage(id, menu.menu(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagram, aktif) ,MessageType.text);
 }
 
-//Pesan kosong
+//Pesan kosong gk roh cok
 if (text.includes('.chatprank')){
     const gh = text.split(".chatprank ")[1];
     const nama = gh.split("/")[0];
@@ -1286,7 +1285,7 @@ axios.get(`https://api.vhtear.com/quran?no=${teks}&apikey=${apivhtear}`).then((r
 })
 }
 
-  //Gombalan
+  //Gombalan untuk kamu
 if (text.includes('.Gombal')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
 }
